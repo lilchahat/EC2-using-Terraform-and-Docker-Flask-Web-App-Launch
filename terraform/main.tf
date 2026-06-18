@@ -41,7 +41,7 @@ resource "aws_security_group" "web_sg" {
     protocol    = "tcp"
     cidr_blocks = ["27.34.66.51/32"]  #cidr_blocks = ["YOUR_IP/32"] You need to use your ip through this command "curl -4 ifconfig.me"
   }
-
+#For Flask
 ingress {
   from_port   = 5000
   to_port     = 5000
